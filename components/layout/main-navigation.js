@@ -9,8 +9,7 @@ function MainNavigation(){
                 {/* <a> */}
                     <Logo />
                 {/* </a>          */}
-            </Link>
-                   
+            </Link>  
             <nav>
                 <ul>
                     <li><Link href="/posts">Posts</Link></li>
