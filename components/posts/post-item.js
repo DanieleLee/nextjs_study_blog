@@ -17,7 +17,7 @@ function PostItem(props){
     return(
         <li className={classes.post}>
             <Link href={linkPath}>
-                <a>
+                {/* <a> */}
                     <div className={classes.image}>
                         <Image 
                             src={imagePath} 
@@ -32,7 +32,7 @@ function PostItem(props){
                         <time>{formattedDate}</time>
                         <p>{excerpt}</p>
                     </div>
-                </a>
+                {/* </a> */}
             </Link>
         </li>
     )
